@@ -8,7 +8,7 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "22638904"))
     API_HASH = os.getenv("API_HASH", "b67e3bc7d52244ff637b1ce1c61a2f1a")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5975220371:AAGAHeXBeArCThKj4YV2AEK50xOjBcBY65U")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Probot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001861016236")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Probot")
